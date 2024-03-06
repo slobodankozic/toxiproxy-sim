@@ -1,4 +1,4 @@
-package com.khan.vaquar.demo.model;
+package com.chaos.model;
 
 public class Student {
 	private Long id;

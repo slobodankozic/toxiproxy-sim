@@ -1,4 +1,4 @@
-package com.khan.vaquar.demo.repository;
+package com.chaos.repository;
 
 
 import java.sql.ResultSet;
@@ -11,7 +11,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.khan.vaquar.demo.model.Student;
+import com.chaos.model.Student;
 
 @Repository
 public class StudentJdbcRepository {

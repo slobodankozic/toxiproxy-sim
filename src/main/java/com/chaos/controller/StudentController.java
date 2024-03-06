@@ -1,7 +1,8 @@
-package com.khan.vaquar.demo.controller;
+package com.chaos.controller;
 
 import java.util.List;
 
+import com.chaos.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,8 +11,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.khan.vaquar.demo.model.Student;
-import com.khan.vaquar.demo.service.StudentService;
+import com.chaos.model.Student;
 
 @RestController
 public class StudentController {

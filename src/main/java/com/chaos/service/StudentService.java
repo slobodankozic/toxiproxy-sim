@@ -1,14 +1,13 @@
-package com.khan.vaquar.demo.service;
+package com.chaos.service;
 
 
 import java.util.List;
 
+import com.chaos.repository.StudentJdbcRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.khan.vaquar.demo.model.Student;
-import com.khan.vaquar.demo.repository.StudentJdbcRepository;
-
+import com.chaos.model.Student;
 
 
 @Service

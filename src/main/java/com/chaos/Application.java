@@ -1,14 +1,12 @@
-package com.khan.vaquar.demo;
+package com.chaos;
+import com.chaos.model.Student;
+import com.chaos.repository.StudentJdbcRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.khan.vaquar.demo.model.Student;
-import  com.khan.vaquar.demo.repository.StudentJdbcRepository;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
 public class Application  implements CommandLineRunner {
